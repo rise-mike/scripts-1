@@ -7,6 +7,7 @@ import glob
 # are a dataframe of the JSON content of the file
 
 path = '../one-offs/french/'
+
 json_glob = glob.glob(path + '*.json')
 print("We're reading from " + str(len(json_glob)) + " files")
 outfile = 'json_french.xlsx'
